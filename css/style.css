@@ -1,14 +1,20 @@
 .wrapper{
     width:960px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     margin: auto;
     
 }
 
 header{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float: left;
     width: 960px;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+}
+
+.content{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #name{
@@ -17,6 +23,7 @@ header{
     text-align: center;
     height: 60px;
     padding: 5px;
+    margin-right: 50%;
     float: left;
 }
 
@@ -34,13 +41,25 @@ a{
     text-decoration: none;
 }
 
+#profilepic{
+    width: 200px;
+}
+
+footer{
+    clear: both;
+}
+
 #green-footer{
+    clear: both;
     background-color: #4aaaa5;
     height: 5px;
+    width: 100%;
 
 }
 
 #grey-footer{
+    clear: both;
     background-color: #666666;
     height: 20px;
+    width: 100%;
 }
