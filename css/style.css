@@ -1,27 +1,47 @@
+.body{
+    clear:both;
+    background: url('../images/gravel.png');
+    position: relative;
+    
+}
+
 .wrapper{
     width:960px;
-    /* background-color: #ffffff; */
     margin: auto;
     
 }
 
 header{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 61px;
+    border-bottom: 3px #cccccc;
+}
+
+.head{
     width: 960px;
-    border-bottom-color: #cccccc;
-    border-bottom-width: 2px;
+    margin: auto;
 }
 
 .content{
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+    width:960px;
+    margin: auto;
+    position: relative;
+
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 15px;
 }
 
 #name{
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    height: 60px;
+    height: 50px;
     padding: 5px;
     margin-right: 50%;
     float: left;
@@ -29,7 +49,7 @@ header{
 
 #menu{
     float: right;
-    height: 60px;
+    height: 50px;
     padding: 5px;
     position: relative;
     list-style: none;
@@ -43,6 +63,14 @@ a{
 
 #profilepic{
     width: 200px;
+    padding: 0px 20px 0px 20px;
+    float: left;
+}
+
+#p1{
+    width: auto;
+    font-size: 15pt;
+    padding: 0px 10px 10px 15px;
 }
 
 footer{
